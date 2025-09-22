@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Cuida Eletro</title>
+</head>
+<body>
+    <label for="eletro">Selecione um eletrodoméstico:</label>
+    <select id="eletro">
+      <option value="">-- Escolha --</option>
+      <option value="geladeira">Geladeira</option>
+      <option value="lavadora">Máquina de lavar roupas</option>
+      <option value="microondas">Micro-ondas</option>
+      <option value="ar">Ar-condicionado</option>
+    </select>
+    <button onclick="adicionarItem()">Adicionar</button>
+  
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Eletrodoméstico</th>
+          <th>Intervalo</th>
+          <th>Observações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- eletrodomésticos -->
+      </tbody>
+    </table>
+  
+    
+</body>
+</html>
